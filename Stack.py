@@ -1,5 +1,4 @@
 stack=[]
-try:
 while True:
 	op = int(input("1 push 2 pop 3 display 4 exit"))
 	if op==1:
