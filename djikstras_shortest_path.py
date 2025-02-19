@@ -29,7 +29,7 @@ class Graph:
             for v2 in range(self.vertices): 
                 if self.graph[v1][v2]>0 and shrtst_pth[v2]==False and d[v2]>(d[v1]+self.graph[v1][v2]): 
                         d[v2]=d[v1]+self.graph[v1][v2]
-        print("The length of the shortest path between ",src," and ",dest," is: ",d[dest]
+        print("The length of the shortest path between ",src," and ",dest," is: ",d[dest])
 
 v=int(input("Enter the number of vertices: "))
 g=Graph(v)
