@@ -1,6 +1,3 @@
-""""
-Send Magic Package for Wake on Lan
-""""
 
 import socket
 import struct
