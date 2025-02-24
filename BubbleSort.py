@@ -1,5 +1,5 @@
 def bubbleSort(ar):
-   n = len(arr)
+   n = len(ar)
    # Traverse through all array elements
    for i in range(n):
    # Last i elements are already in correct position
